@@ -1,0 +1,24 @@
+.waves {
+    min-height: 75px;
+    z-index: -9;
+}
+
+.wave {
+    z-index: -9;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 200%;
+    height: 100%;
+    background-position: 0 bottom;
+    background-repeat: repeat-x;
+    transform-origin: center bottom;
+}
+
+@keyframes wave {
+    0% {transform: translateX(0) translateZ(0) scaleY(1);}
+    0% {transform: translateX(-25%) translateZ(0) scaleY(.5);}
+    0% {transform: translateX(-50%) translateZ(0) scaleY(1);}
+}
