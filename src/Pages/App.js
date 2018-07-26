@@ -5,7 +5,9 @@ class App extends React.Component {
 	render() {
 		return (
 			<div className="App">
-				<Bubbles/>
+				<div style={{zIndex: "0"}}>
+					<Bubbles/>
+				</div>
 				{this.props.children}
 			</div>
 		);

@@ -1,0 +1,449 @@
+{
+  "warrior": {
+    "videoId": "LAcDZobZDrk",
+    "mead": [
+      {
+        "timestamp": 27,
+        "strength": 0.75,
+        "long": false
+      },
+      {
+        "timestamp": 53,
+        "strength": 0.75,
+        "long": false
+      },
+      {
+        "timestamp": 84,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 90,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 96,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 102,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 148,
+        "strength": 1,
+        "long": true
+      },
+      {
+        "timestamp": 134.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 141,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 147.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 153.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 159.5,
+        "strength": 1,
+        "long": true
+      },
+      {
+        "timestamp": 175,
+        "strength": 0.75,
+        "long": false
+      },
+      {
+        "timestamp": 180,
+        "strength": 0.75,
+        "long": false
+      },
+      {
+        "timestamp": 185.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 192.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 197.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 205,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 210.5,
+        "strength": 1,
+        "long": true
+      },
+      {
+        "timestamp": 226.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 229.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 232.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 235.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 239,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 242,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 245,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 248,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 251,
+        "strength": 0.75,
+        "long": false
+      },
+      {
+        "timestamp": 341,
+        "strength": 0.1,
+        "long": false
+      },
+      {
+        "timestamp": 344.5,
+        "strength": 0.2,
+        "long": false
+      },
+      {
+        "timestamp": 347.5,
+        "strength": 0.3,
+        "long": false
+      },
+      {
+        "timestamp": 351,
+        "strength": 0.4,
+        "long": false
+      },
+      {
+        "timestamp": 354,
+        "strength": 0.5,
+        "long": false
+      },
+      {
+        "timestamp": 357,
+        "strength": 0.6,
+        "long": false
+      },
+      {
+        "timestamp": 360.5,
+        "strength": 0.7,
+        "long": false
+      },
+      {
+        "timestamp": 364,
+        "strength": 0.8,
+        "long": false
+      },
+      {
+        "timestamp": 367,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 370,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 373,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 376.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 379,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 382.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 385.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 388.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 392,
+        "strength": 1.25,
+        "long": false
+      }
+    ],
+    "another": [
+      {
+        "timestamp": 32.5,
+        "strength": 0.75,
+        "long": false
+      },
+      {
+        "timestamp": 85,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 87,
+        "strength": 1,
+        "long": true
+      },
+      {
+        "timestamp": 91,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 98,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 104,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 136,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 138,
+        "strength": 1,
+        "long": true
+      },
+      {
+        "timestamp": 143,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 149.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 155.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 187,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 189.5,
+        "strength": 1,
+        "long": true
+      },
+      {
+        "timestamp": 194,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 199.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 206.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 227.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 230.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 234,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 237.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 240.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 243.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 246.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 249.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 253,
+        "strength": 1.5,
+        "long": true
+      },
+      {
+        "timestamp": 260,
+        "strength": 0.75,
+        "long": false
+      },
+      {
+        "timestamp": 343,
+        "strength": 0.15,
+        "long": false
+      },
+      {
+        "timestamp": 346.5,
+        "strength": 0.25,
+        "long": false
+      },
+      {
+        "timestamp": 349,
+        "strength": 0.35,
+        "long": false
+      },
+      {
+        "timestamp": 352.5,
+        "strength": 0.45,
+        "long": false
+      },
+      {
+        "timestamp": 355.5,
+        "strength": 0.55,
+        "long": false
+      },
+      {
+        "timestamp": 358.5,
+        "strength": 0.65,
+        "long": false
+      },
+      {
+        "timestamp": 362,
+        "strength": 0.75,
+        "long": false
+      },
+      {
+        "timestamp": 365,
+        "strength": 1.5,
+        "long": true
+      },
+      {
+        "timestamp": 368.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 371.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 374.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 378,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 381,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 384,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 386.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 390,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 393.5,
+        "strength": 1.5,
+        "long": true
+      }
+    ]
+  }
+}

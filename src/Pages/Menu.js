@@ -8,7 +8,7 @@ import WarriorImg from "../Components/Card/images/warrior.jpg";
 class Menu extends React.Component {
 	render() {
 		return (
-			<Grid fluid >
+			<Grid fluid>
 				<Row center="xs">
 					<Col xs>
 						<h1>THE MEAD SONG GAME</h1>
@@ -21,7 +21,7 @@ class Menu extends React.Component {
 				</Row>
 				<Row around="xs" center="xs">
 					<Col xs={6} >
-						<Card to="/play/poser" title="Wimp & poser" image={PoserImg} style={{maxWidth: "400px!important"}}/>
+						<Card to="/play/poser" title="Wimp & poser" image={PoserImg}/>
 					</Col>
 					<Col xs={6}>
 						<Card to="/play/warrior" title="True metal warrior" image={WarriorImg}/>

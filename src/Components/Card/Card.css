@@ -1,5 +1,6 @@
 .card {
     display: inline-block;
+    position: relative;
     max-height: calc(100vh - 350px);
     margin-bottom: 20px;
     box-sizing: border-box;
@@ -7,6 +8,7 @@
     background: #212121;
     box-shadow: 0 10px 20px rgba(0,0,0,0.12), 0 5px 5px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    z-index: 1;
 }
 
 .card:hover {

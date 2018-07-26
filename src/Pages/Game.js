@@ -1,23 +1,16 @@
 import React from "react";
-import { Grid, Row, Col } from "react-flexbox-grid";
-import Bubbles from "../Components/Bubbles/Bubbles";
-import Waves from "../Components/Waves/Waves";
+import Player from "../Components/Player/Player";
 
-class Menu extends React.Component {
+class Game extends React.Component {
+	constructor(props) {
+		super(props);
+		this.mode = props.match.params.mode ? props.match.params.mode : "";
+	}
 	render() {
 		return (
-			<Grid fluid>
-				<Row>
-					<Col xs={6}>
-						<Waves />
-					</Col>
-					<Col xs={6}>
-						<Waves/>
-					</Col>
-				</Row>
-			</Grid>
+			<Player mode={this.mode}/>
 		);
 	}
 }
 
-export default Menu;
+export default Game;

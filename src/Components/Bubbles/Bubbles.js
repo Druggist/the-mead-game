@@ -5,7 +5,7 @@ import particlesConfig from "./particles";
 class Bubbles extends React.Component {
 	render() {
 		return (
-			<Particles params={particlesConfig} style={{width: "100%", height: "100%", position: "absolute", zIndex: "-8"}}/>
+			<Particles params={particlesConfig} style={{width: "100%", height: "100%", position: "absolute", zIndex: "0"}}/>
 		);
 	}
 }
