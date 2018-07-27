@@ -16,7 +16,7 @@ class Label extends React.Component {
 	render() {
 		return (
 			<div className="label-container">
-				<h1 ref={header => {this.header = header;}}>{this.props.label}</h1>
+				<h1 ref={header => {this.header = header;}} style={{fontSize: `calc(7vw * ${this.props.strength})`}}>{this.props.label}</h1>
 			</div>
 		);
 	}
