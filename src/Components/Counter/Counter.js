@@ -10,7 +10,7 @@ class Player extends React.Component {
 				<Row bottom="xs">
 					<Col xs={12}>
 						<Waves/>
-						<div style={{background: "#FFA000", padding: `calc(30% * ${height} + 10px) 0`, zIndex: "-9", textAlign: "center"}}>
+						<div style={{background: "#FFA000", padding: `calc(30% * ${height} + 10px) 0`, zIndex: "-9", textAlign: "center", transition: "all 1s cubic-bezier(.25,.8,.25,1)"}}>
 							<h3>{this.props.current}/{this.props.total}</h3>
 						</div>
 					</Col>
