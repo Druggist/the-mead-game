@@ -1,6 +1,6 @@
 import React from "react";
-import WavesImg1 from "./images/waves1.png";
-import WavesImg2 from "./images/waves2.png";
+import WavesImg1 from "./images/wave1.png";
+import WavesImg2 from "./images/wave2.png";
 import "./Waves.css";
 
 class Waves extends React.Component {
