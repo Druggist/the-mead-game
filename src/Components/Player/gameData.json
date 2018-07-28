@@ -1,4 +1,272 @@
 {
+
+  "poser": {
+    "videoId": "6rYDS33Je4U",
+    "mead": [
+      {
+        "timestamp": 15.25,
+        "strength": 0.75,
+        "long": false
+      },
+      {
+        "timestamp": 45.75,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 52.25,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 58.4,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 64.9,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 70.25,
+        "strength": 1.25,
+        "long": true
+      },
+      {
+        "timestamp": 97.25,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 103.25,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 109.75,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 116.25,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 121.25,
+        "strength": 1.25,
+        "long": true
+      },
+      {
+        "timestamp": 137.5,
+        "strength": 0.75,
+        "long": false
+      },
+      {
+        "timestamp": 142.25,
+        "strength": 0.75,
+        "long": false
+      },
+      {
+        "timestamp": 148.25,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 154.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 160.75,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 167.25,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 172.5,
+        "strength": 1.25,
+        "long": true
+      },
+      {
+        "timestamp": 188.25,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 191.25,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 194.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 197.75,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 200.9,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 204.25,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 207.25,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 210.5,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 213.75,
+        "strength": 1.5,
+        "long": false
+      }
+    ],
+    "another": [
+      {
+        "timestamp": 47.25,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 49,
+        "strength": 1.25,
+        "long": true
+      },
+      {
+        "timestamp": 53.75,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 59.9,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 66.25,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 98.4,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 100.25,
+        "strength": 1.25,
+        "long": true
+      },
+      {
+        "timestamp": 104.75,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 111.25,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 117.75,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 125.25,
+        "strength": 0.75,
+        "long": false
+      },
+      {
+        "timestamp": 149.75,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 151.5,
+        "strength": 1.25,
+        "long": true
+      },
+      {
+        "timestamp": 156,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 162.25,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 168.75,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 189.75,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 192.9,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 195.9,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 199.25,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 202.4,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 205.75,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 208.75,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 211.9,
+        "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 215.25,
+        "strength": 1.5,
+        "long": false
+      }
+    ]
+  },
   "warrior": {
     "videoId": "LAcDZobZDrk",
     "mead": [
