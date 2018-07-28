@@ -11,7 +11,7 @@ class Label extends React.Component {
 		this.header.style.animation = "none";
 		this.header.offsetHeight;
 		this.header.style.animation = this.props.long ? "pop-long 2s linear 1" : "pop 1s linear 1";
-		this.header.style.fontSize = `calc(7vw * ${this.props.strength})`;
+		this.header.style.fontSize = `calc(7.5vw * ${this.props.strength})`;
 	}
 
 	render() {

@@ -1,16 +1,22 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 import { Grid, Row, Col } from "react-flexbox-grid";
 import Counter from "../Counter/Counter";
 import Label from "../Label/Label";
 import YouTube from "react-youtube";
 import gameData from "./gameData";
+import "./Player.css";
 
 class Player extends React.Component {
 	constructor(props) {
 		super(props);
 		this.onTimeChange = this.onTimeChange.bind(this);
+		this.onReady = this.onReady.bind(this);
+		this.onEnd = this.onEnd.bind(this);
+		this.handleInput = this.handleInput.bind(this);
 		this.mead = React.createRef();
 		this.another = React.createRef();
+		this.status = "start";
 
 		this.data = {};
 		if (props.mode === "warrior") this.data = gameData.warrior ? gameData.warrior : {};
@@ -31,13 +37,74 @@ class Player extends React.Component {
 			meadCounter: 0,
 			anotherCounter: 0,
 			mead: mead,
-			another: another
+			another: another,
+			popupText: "Are you ready?",
+			popupHelperText: "Press any key to start"
 		};
-		console.log("reqTime", this.reqTime);
-		console.log("state", this.state);
 	}
 
-	triggerTimestamp(event) {
+	componentDidMount(){
+		document.addEventListener("keydown", this.handleInput, false);
+	}
+	componentWillUnmount(){
+		document.removeEventListener("keydown", this.handleInput, false);
+	}
+
+	handleInput(event) {
+		switch (this.status) {
+		case "start":
+			this.startGame();
+			break;
+		case "running":
+			if(event.keyCode === 80 || event.keyCode === 32 || event.keyCode === 27) this.pauseGame();
+			else if(event.keyCode === 82) this.restartGame();
+			break;
+		case "paused":
+			this.resumeGame();
+			break;
+		case "end":
+			this.endGame();
+			break;
+		default:
+		}
+	}
+
+	startGame() {
+		if(this.youtube) {
+			document.getElementById("popup").style.animation = "hide .5s linear 1";
+			document.getElementById("popup").style.opacity = "0";
+			this.youtube.playVideo();
+			this.status = "running";
+			setTimeout(() => {
+				this.setState({popupText: "PAUSED", popupHelperText: "Press any key to resume"});
+			}, 500);
+		}
+	}
+
+	pauseGame() {
+		document.getElementById("popup").style.animation = "show .5s linear 1";
+		document.getElementById("popup").style.opacity = "1";
+		this.youtube.pauseVideo();
+		this.status = "paused";
+	}
+
+	resumeGame() {
+		document.getElementById("popup").style.animation = "hide .5s linear 1";
+		document.getElementById("popup").style.opacity = "0";
+		this.youtube.playVideo();
+		this.status = "running";
+	}
+
+	restartGame() {
+		this.props.history.replace("/");
+		this.props.history.replace("/play/" + this.props.mode);
+	}
+
+	endGame() {
+		this.props.history.push("/");
+	}
+
+	triggerTimestamp() {
 		if(this.reqTime === this.state.mead.timestamp) {
 			this.mead.current.triggerAnimation();
 			if(this.data.mead[this.state.meadCounter + 1]) {
@@ -61,18 +128,29 @@ class Player extends React.Component {
 				this.reqTime = this.state.another.timestamp ? this.state.another.timestamp : -1;
 			}
 		}
-		this.onTimeChange(event);
+		this.onTimeChange();
 	}
 
-	onTimeChange(event) {
+	onTimeChange() {
 		setTimeout(() => {
-			let videoTime = event.target.getCurrentTime();
+			let videoTime = this.youtube.getCurrentTime();
 			if (this.reqTime > 0) if (this.reqTime <= videoTime) {
-				this.triggerTimestamp(event);
+				this.triggerTimestamp();
 			} else {
-				this.onTimeChange(event);
+				if(this.status === "running") this.onTimeChange();
 			}
 		}, 100);
+	}
+
+	onReady(event) {
+		this.youtube = event.target;
+	}
+
+	onEnd() {
+		this.setState({popupText: "YOU MADE IT", popupHelperText: "Press any key to go back"});
+		document.getElementById("popup").style.animation = "show .5s linear 1";
+		document.getElementById("popup").style.opacity = "1";
+		this.status = "end";
 	}
 
 	render() {
@@ -80,7 +158,7 @@ class Player extends React.Component {
 			height: "100%",
 			width: "100%",
 			playerVars: {
-				autoplay: 1,
+				autoplay: 0,
 				cc_load_policy: 0,
 				controls: 0,
 				disablekb: 1,
@@ -91,11 +169,26 @@ class Player extends React.Component {
 				showinfo: 0
 			}
 		};
-
 		return (
 			<div className="App">
+				<div id="popup">
+					<div className="bg"></div>
+					<Grid fluid className="content">
+						<Row center="xs" middle="xs">
+							<Col xs={12}>
+								<h1>{this.state.popupText}</h1>
+							</Col>
+						</Row>
+						<Row center="xs" middle="xs">
+							<Col xs={12}>
+								<h2 style={{animation: "attractor 5s linear infinite"}}>{this.state.popupHelperText}</h2>
+							</Col>
+						</Row>
+					</Grid>
+				</div>
 				<div style={{position: "absolute", width: "100%", height: "100%", zIndex: "-9"}}>
-					<YouTube videoId={this.data.videoId ? this.data.videoId : "dQw4w9WgXcQ"} opts={opts} onReady={this.onTimeChange}/>
+					<YouTube videoId={this.data.videoId ? this.data.videoId : "dQw4w9WgXcQ"} opts={opts}
+							 onEnd={this.onEnd} onReady={this.onReady} onPlay={this.onTimeChange}/>
 				</div>
 				<Grid fluid>
 					<Row>
@@ -134,4 +227,5 @@ class Player extends React.Component {
 	}
 }
 
-export default Player;
+
+export default withRouter(Player);

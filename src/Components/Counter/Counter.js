@@ -13,7 +13,7 @@ class Player extends React.Component {
 					<Col xs={12} style={opacity}>
 						<Waves/>
 						<div style={{background: "#FFA000", padding: `calc(15% * ${height} + 10px) 0`, zIndex: "-9", textAlign: "center", transition: "all 1s cubic-bezier(.25,.8,.25,1)"}}>
-							<h3 style={{margin: "0", color: "#FF6F00", fontSize: `calc(2vw + 8 * ${height}vw)`}}>{this.props.current}/{this.props.total}</h3>
+							<h3 style={{margin: "0", color: "#FF6F00", fontSize: `calc(2vw + 8 * ${height}vw)`, fontWeight: "100"}}>{this.props.current}/{this.props.total}</h3>
 						</div>
 					</Col>
 				</Row>

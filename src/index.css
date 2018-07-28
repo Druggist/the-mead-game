@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Hanalei+Fill');
+
 
 html, body {
     overflow: hidden;
@@ -21,14 +22,14 @@ html, body, #root, .App, .container-fluid {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Hanalei Fill', cursive;
     background: #111111;
     overflow-x: hidden;
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-family: 'Hanalei Fill', cursive;
+    font-weight: 100;
     font-size: 8vw;
     color: #FF6F00;
     margin-top: 20px;
@@ -38,8 +39,8 @@ h1 {
 h2 {
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-family: 'Hanalei Fill', cursive;
+    font-weight: 100;
     font-size: 4vw;
     color: #FFA000;
 }
