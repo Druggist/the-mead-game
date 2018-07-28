@@ -19,17 +19,17 @@
       "anim": {
         "enable": true,
         "speed": 1,
-        "opacity_min": 0.25,
+        "opacity_min": 0.4,
         "sync": false
       }
     },
     "size": {
-      "value": 6.5,
+      "value": 7,
       "random": true,
       "anim": {
         "enable": true,
         "speed": 1.5,
-        "size_min": 0,
+        "size_min": 1.5,
         "sync": false
       }
     },
@@ -38,7 +38,7 @@
     },
     "move": {
       "enable": true,
-      "speed": 1,
+      "speed": 1.75,
       "direction": "top",
       "random": true,
       "straight": false,

@@ -61,7 +61,6 @@ class Player extends React.Component {
 				this.reqTime = this.state.another.timestamp ? this.state.another.timestamp : -1;
 			}
 		}
-		this.forceUpdate();
 		this.onTimeChange(event);
 	}
 
@@ -104,12 +103,12 @@ class Player extends React.Component {
 							<Grid fluid>
 								<Row bottom="xs">
 									<Col xs={12}>
-										<Label ref={this.mead} label="mead" strength={this.state.mead.strength}/>
+										<Label ref={this.mead} label="mead" strength={this.state.mead.strength} long={this.state.mead.long}/>
 									</Col>
 								</Row>
 								<Row>
 									<Col xs={12}>
-										<Counter current={this.state.meadCounter} total={this.data.mead ? this.data.mead.length : 0} long={this.state.mead.long}/>
+										<Counter current={this.state.meadCounter} total={this.data.mead ? this.data.mead.length : 0}/>
 									</Col>
 								</Row>
 							</Grid>

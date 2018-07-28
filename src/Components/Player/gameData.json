@@ -13,7 +13,7 @@
         "long": false
       },
       {
-        "timestamp": 84,
+        "timestamp": 83.5,
         "strength": 1,
         "long": false
       },
@@ -23,22 +23,22 @@
         "long": false
       },
       {
-        "timestamp": 96,
+        "timestamp": 96.25,
         "strength": 1,
         "long": false
       },
       {
-        "timestamp": 102,
+        "timestamp": 102.5,
         "strength": 1,
         "long": false
       },
       {
-        "timestamp": 128,
+        "timestamp": 107.75,
         "strength": 1,
         "long": true
       },
       {
-        "timestamp": 134.5,
+        "timestamp": 135,
         "strength": 1,
         "long": false
       },
@@ -53,12 +53,12 @@
         "long": false
       },
       {
-        "timestamp": 153.5,
+        "timestamp": 154,
         "strength": 1,
         "long": false
       },
       {
-        "timestamp": 159.5,
+        "timestamp": 159.2,
         "strength": 1,
         "long": true
       },
@@ -73,7 +73,7 @@
         "long": false
       },
       {
-        "timestamp": 185.5,
+        "timestamp": 186,
         "strength": 1,
         "long": false
       },
@@ -83,27 +83,27 @@
         "long": false
       },
       {
-        "timestamp": 197.5,
+        "timestamp": 198.75,
         "strength": 1,
         "long": false
       },
       {
-        "timestamp": 205,
+        "timestamp": 205.25,
         "strength": 1,
         "long": false
       },
       {
-        "timestamp": 210.5,
+        "timestamp": 210.25,
         "strength": 1,
         "long": true
       },
       {
-        "timestamp": 226.5,
+        "timestamp": 226,
         "strength": 1,
         "long": false
       },
       {
-        "timestamp": 229.5,
+        "timestamp": 229.25,
         "strength": 1,
         "long": false
       },
@@ -128,63 +128,63 @@
         "long": false
       },
       {
-        "timestamp": 245,
+        "timestamp": 245.25,
         "strength": 1,
         "long": false
       },
       {
-        "timestamp": 248,
+        "timestamp": 248.25,
         "strength": 1,
         "long": false
       },
       {
-        "timestamp": 251,
+        "timestamp": 251.5,
         "strength": 0.75,
         "long": false
       },
       {
         "timestamp": 341,
-        "strength": 0.1,
-        "long": false
-      },
-      {
-        "timestamp": 344.5,
-        "strength": 0.2,
-        "long": false
-      },
-      {
-        "timestamp": 347.5,
         "strength": 0.3,
         "long": false
       },
       {
-        "timestamp": 351,
+        "timestamp": 344.5,
         "strength": 0.4,
         "long": false
       },
       {
-        "timestamp": 354,
+        "timestamp": 347.5,
         "strength": 0.5,
         "long": false
       },
       {
-        "timestamp": 357,
+        "timestamp": 351,
         "strength": 0.6,
         "long": false
       },
       {
-        "timestamp": 360.5,
+        "timestamp": 354,
         "strength": 0.7,
         "long": false
       },
       {
-        "timestamp": 364,
+        "timestamp": 357,
         "strength": 0.8,
         "long": false
       },
       {
-        "timestamp": 367,
+        "timestamp": 360.5,
+        "strength": 0.9,
+        "long": false
+      },
+      {
+        "timestamp": 363.5,
         "strength": 1,
+        "long": false
+      },
+      {
+        "timestamp": 366.5,
+        "strength": 1.25,
         "long": false
       },
       {
@@ -198,17 +198,17 @@
         "long": false
       },
       {
-        "timestamp": 376.5,
+        "timestamp": 376,
         "strength": 1,
         "long": false
       },
       {
-        "timestamp": 379,
+        "timestamp": 379.25,
         "strength": 1,
         "long": false
       },
       {
-        "timestamp": 382.5,
+        "timestamp": 382.25,
         "strength": 1,
         "long": false
       },
@@ -223,14 +223,14 @@
         "long": false
       },
       {
-        "timestamp": 392,
+        "timestamp": 391.75,
         "strength": 1.25,
         "long": false
       }
     ],
     "another": [
       {
-        "timestamp": 32.5,
+        "timestamp": 32.25,
         "strength": 0.75,
         "long": false
       },
@@ -240,17 +240,17 @@
         "long": false
       },
       {
-        "timestamp": 87,
+        "timestamp": 86.75,
         "strength": 1,
         "long": true
       },
       {
-        "timestamp": 91,
+        "timestamp": 91.5,
         "strength": 1,
         "long": false
       },
       {
-        "timestamp": 98,
+        "timestamp": 97.75,
         "strength": 1,
         "long": false
       },
@@ -260,7 +260,7 @@
         "long": false
       },
       {
-        "timestamp": 136,
+        "timestamp": 136.25,
         "strength": 1,
         "long": false
       },
@@ -270,12 +270,12 @@
         "long": true
       },
       {
-        "timestamp": 143,
+        "timestamp": 142.5,
         "strength": 1,
         "long": false
       },
       {
-        "timestamp": 149.5,
+        "timestamp": 149,
         "strength": 1,
         "long": false
       },
@@ -285,12 +285,17 @@
         "long": false
       },
       {
-        "timestamp": 187,
+        "timestamp": 163,
+        "strength": 0.75,
+        "long": false
+      },
+      {
+        "timestamp": 187.5,
         "strength": 1,
         "long": false
       },
       {
-        "timestamp": 189.5,
+        "timestamp": 189.25,
         "strength": 1,
         "long": true
       },
@@ -300,7 +305,7 @@
         "long": false
       },
       {
-        "timestamp": 199.5,
+        "timestamp": 200,
         "strength": 1,
         "long": false
       },
@@ -325,7 +330,7 @@
         "long": false
       },
       {
-        "timestamp": 237.5,
+        "timestamp": 237,
         "strength": 1,
         "long": false
       },
@@ -345,7 +350,7 @@
         "long": false
       },
       {
-        "timestamp": 249.5,
+        "timestamp": 249.75,
         "strength": 1,
         "long": false
       },
@@ -355,43 +360,43 @@
         "long": true
       },
       {
-        "timestamp": 260,
+        "timestamp": 259.5,
         "strength": 0.75,
         "long": false
       },
       {
         "timestamp": 343,
-        "strength": 0.15,
+        "strength": 0.3,
         "long": false
       },
       {
-        "timestamp": 346.5,
-        "strength": 0.25,
+        "timestamp": 346.25,
+        "strength": 0.4,
         "long": false
       },
       {
         "timestamp": 349,
-        "strength": 0.35,
+        "strength": 0.5,
         "long": false
       },
       {
         "timestamp": 352.5,
-        "strength": 0.45,
+        "strength": 0.6,
         "long": false
       },
       {
         "timestamp": 355.5,
-        "strength": 0.55,
+        "strength": 0.7,
         "long": false
       },
       {
         "timestamp": 358.5,
-        "strength": 0.65,
+        "strength": 0.8,
         "long": false
       },
       {
-        "timestamp": 362,
-        "strength": 0.75,
+        "timestamp": 361.75,
+        "strength": 0.9,
         "long": false
       },
       {
@@ -400,7 +405,7 @@
         "long": true
       },
       {
-        "timestamp": 368.5,
+        "timestamp": 368,
         "strength": 1,
         "long": false
       },
@@ -415,22 +420,22 @@
         "long": false
       },
       {
-        "timestamp": 378,
+        "timestamp": 377.5,
         "strength": 1,
         "long": false
       },
       {
-        "timestamp": 381,
+        "timestamp": 380.5,
         "strength": 1,
         "long": false
       },
       {
-        "timestamp": 384,
+        "timestamp": 383.75,
         "strength": 1,
         "long": false
       },
       {
-        "timestamp": 386.5,
+        "timestamp": 386.75,
         "strength": 1,
         "long": false
       },
@@ -440,7 +445,7 @@
         "long": false
       },
       {
-        "timestamp": 393.5,
+        "timestamp": 393.25,
         "strength": 1.5,
         "long": true
       }

@@ -1,5 +1,5 @@
 @keyframes dim {
     0% {opacity: .95;}
-    25% {opacity: .1;}
+    25% {opacity: 1;}
     100% {opacity: .5;}
 }

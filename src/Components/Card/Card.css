@@ -36,6 +36,6 @@ a:hover {
 .card h4 {
     color: #FFA000;
     text-transform: uppercase;
-    font-size: 0.75vw;
+    margin: 10px;
 
 }

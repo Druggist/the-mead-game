@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
 
+html, body {
+    overflow: hidden;
+}
+
 html, body, #root, .App, .container-fluid {
     min-height: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 .container-fluid {
@@ -33,6 +36,8 @@ h1 {
 }
 
 h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 4vw;
