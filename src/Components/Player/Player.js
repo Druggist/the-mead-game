@@ -51,12 +51,13 @@ class Player extends React.Component {
 	}
 
 	handleInput(event) {
+		console.log(event);
 		switch (this.status) {
 		case "start":
 			this.startGame();
 			break;
 		case "running":
-			if(event.keyCode === 80 || event.keyCode === 32 || event.keyCode === 27) this.pauseGame();
+			if(event.keyCode === 80 || event.keyCode === 32 || event.keyCode === 27 || !(event instanceof KeyboardEvent)) this.pauseGame();
 			else if(event.keyCode === 82) this.restartGame();
 			break;
 		case "paused":
@@ -171,7 +172,7 @@ class Player extends React.Component {
 		};
 		return (
 			<div className="App">
-				<div id="popup">
+				<div id="popup" onClick={this.handleInput}>
 					<div className="bg"></div>
 					<Grid fluid className="content">
 						<Row center="xs" middle="xs">

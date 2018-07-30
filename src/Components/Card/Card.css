@@ -1,8 +1,7 @@
 .card {
     display: inline-block;
     position: relative;
-    max-height: calc(100vh - 350px);
-    margin-bottom: 20px;
+    margin: 10px;
     box-sizing: border-box;
     border-radius: 5px;
     background: #212121;
@@ -17,8 +16,8 @@
 }
 
 .card img {
-    width: calc((100vh - 425px) * 1.333333);
-    max-width: 640px;
+    max-height: 35vh;
+    max-width: 100%;
     height: auto;
     box-sizing: border-box;
     border-radius: 5px 5px 0 0;

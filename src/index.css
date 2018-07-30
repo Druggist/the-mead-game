@@ -31,7 +31,7 @@ h1 {
     text-shadow: 5px 5px 5px #000;
     font-family: 'Hanalei Fill', cursive;
     font-weight: 100;
-    font-size: 8vw;
+    font-size: 7vw;
     color: #FF6F00;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -41,9 +41,10 @@ h2 {
     text-shadow: 5px 5px 5px #000;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-bottom: 20px;
     font-family: 'Hanalei Fill', cursive;
     font-weight: 100;
-    font-size: 4vw;
+    font-size: 3.5vw;
     color: #FFA000;
 }
 
@@ -52,37 +53,6 @@ h3 {
     color: #FF6F00;
     font-size: 2.5vw;
     font-weight: 100;
-}
-
-.more-container {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 2;
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
-.more-container .more{
-    height: 25px;
-    background: #FFA000;
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
-.more-container:hover .more {
-    height: 65vh;
-}
-
-.more-container h3,
-.more-container .more .inscription,
-.more-container .patron {
-    transform: scale(0);
-}
-
-.more-container:hover h3,
-.more-container:hover .more .inscription,
-.more-container:hover .patron {
-    transform: scale(1);
 }
 
 blockquote {
@@ -118,6 +88,38 @@ blockquote cite {
 
 blockquote cite:before {
     content: "\2014 \2009";
+}
+
+.more-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.more-container .more{
+    height: 25px;
+    margin-top: -5px;
+    background: #FFA000;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.more-container:hover .more {
+    height: 65vh;
+}
+
+.more-container h3,
+.more-container .more .inscription,
+.more-container .patron {
+    transform: scale(0);
+}
+
+.more-container:hover h3,
+.more-container:hover .more .inscription,
+.more-container:hover .patron {
+    transform: scale(1);
 }
 
 .more-container .inscription span {
