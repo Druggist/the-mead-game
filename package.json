@@ -1,7 +1,7 @@
 {
   "name": "the-mead-game",
   "version": "0.1.0",
-  "homepage": "http://druggist.github.io/the-mead-game",
+  "homepage": "https://druggist.github.io/the-mead-game/",
   "private": true,
   "dependencies": {
     "@types/react": "^16.4.6",

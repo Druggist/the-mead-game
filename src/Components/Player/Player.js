@@ -145,6 +145,7 @@ class Player extends React.Component {
 
 	onReady(event) {
 		this.youtube = event.target;
+		this.youtube.setVolume(100);
 	}
 
 	onEnd() {

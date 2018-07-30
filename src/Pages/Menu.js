@@ -63,7 +63,7 @@ class Menu extends React.Component {
 									</Col>
 									<Col xs={6}>
 										<h3>Become a patron</h3>
-										<a className="patron" target="_blank" href="http://fb.com/brothersofmetalofficial">
+										<a className="patron" target="_blank" rel="noopener noreferrer" href="http://fb.com/brothersofmetalofficial">
 											<div className="img-container">
 												<img src={BomImg} alt="support"/>
 											</div>

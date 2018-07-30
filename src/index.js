@@ -8,7 +8,7 @@ import App from "./Pages/App";
 import registerServiceWorker from "./registerServiceWorker";
 
 ReactDOM.render(
-	<Router>
+	<Router basename={process.env.PUBLIC_URL}>
 		<App>
 			<Route exact path="/" component={Menu}/>
 			<Route path="/play/:mode" component={Game}/>
