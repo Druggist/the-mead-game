@@ -7,7 +7,7 @@
 .wave {
     z-index: -9;
     position: relative;
-    min-height: 75px;
+    height: 75px;
     width: 200%;
     background-position: 0 bottom;
     background-repeat: repeat-x;

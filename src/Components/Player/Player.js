@@ -170,6 +170,9 @@ class Player extends React.Component {
 				showinfo: 0
 			}
 		};
+		let meadTotal = this.data.mead ? this.data.mead.length : 0;
+		let anotherTotal = this.data.another ? this.data.another.length : 0;
+
 		return (
 			<div className="App">
 				<div id="popup" onClick={this.handleInput}>
@@ -202,7 +205,7 @@ class Player extends React.Component {
 								</Row>
 								<Row>
 									<Col xs={12}>
-										<Counter current={this.state.meadCounter} total={this.data.mead ? this.data.mead.length : 0}/>
+										<Counter current={this.state.meadCounter} total={meadTotal} swordPos={Math.max(this.state.meadCounter / meadTotal, this.state.anotherCounter / anotherTotal)}/>
 									</Col>
 								</Row>
 							</Grid>
@@ -216,7 +219,7 @@ class Player extends React.Component {
 								</Row>
 								<Row>
 									<Col xs={12}>
-										<Counter current={this.state.anotherCounter} total={this.data.another ? this.data.another.length : 0}/>
+										<Counter current={this.state.anotherCounter} total={anotherTotal} swordPos={Math.max(this.state.meadCounter / meadTotal, this.state.anotherCounter / anotherTotal)} />
 									</Col>
 								</Row>
 							</Grid>

@@ -1,3 +1,19 @@
+.counter .img-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.counter .img-container  img {
+    height: calc(95px + 60vh + 10vw);
+}
+
 @keyframes dim {
     0% {opacity: .95;}
     25% {opacity: 1;}

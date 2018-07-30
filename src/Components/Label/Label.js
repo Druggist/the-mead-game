@@ -1,4 +1,5 @@
 import React from "react";
+import bgImg from "./images/bg.png";
 import "./Label.css";
 
 class Label extends React.Component {
@@ -19,7 +20,7 @@ class Label extends React.Component {
 		return (
 			<div className="label-container">
 				<div style={{transform: `rotate(${rotation[Math.floor(Math.random() * rotation.length)]}deg)`}}>
-					<h1 ref={header => {this.header = header;}}>{this.props.label}</h1>
+					<h1 ref={header => {this.header = header;}} style={{ background: `url(${bgImg}) no-repeat center`, backgroundSize: "contain"}}>{this.props.label}</h1>
 				</div>
 			</div>
 		);
