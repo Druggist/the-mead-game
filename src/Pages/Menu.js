@@ -42,8 +42,9 @@ class Menu extends React.Component {
 										<h3 style={{
 											animation: "attractor 3s linear infinite",
 											fontSize: "24px",
-											marginTop: "-15px"
-										}}>Want to know more?</h3>
+											marginTop: "-15px",
+											color: "#E65100"
+										}}>Unveil the secrets of power</h3>
 									</Col>
 								</Row>
 								<Row center="xs">
@@ -57,7 +58,7 @@ class Menu extends React.Component {
 											<span>It's time to <strong>DRINK</strong>!</span>
 											<span>And when you hear this word: <strong>ANOTHER</strong>,</span>
 											<span>It's also time to <strong>DRINK</strong>!</span>
-											<cite>One true god</cite>
+											<cite>Tongue of the Gods</cite>
 										</blockquote>
 									</Col>
 									<Col xs={6}>
@@ -68,6 +69,7 @@ class Menu extends React.Component {
 											</div>
 											<h4>Support the band</h4>
 										</a>
+										<a href='https://www.freepik.com/free-vector/cute-animal-doing-dabbing_2462530.htm' style={{color: "transparent", position: "absolute", bottom: "0"}}>Designed by Freepik</a>
 									</Col>
 								</Row>
 							</Grid>
