@@ -19,8 +19,8 @@ class Player extends React.Component {
 		this.status = "start";
 
 		this.data = {};
-		if (props.mode === "warrior") this.data = gameData.warrior ? gameData.warrior : {};
-		else if (props.mode === "poser") this.data = gameData.poser ? gameData.poser : {};
+		if (props.mode === "god_of_war") this.data = gameData.god_of_war ? gameData.god_of_war : {};
+		else if (props.mode === "defender_of_valhalla") this.data = gameData.defender_of_valhalla ? gameData.defender_of_valhalla : {};
 
 		let mead = {};
 		let another = {};
@@ -39,7 +39,7 @@ class Player extends React.Component {
 			mead: mead,
 			another: another,
 			popupText: "Are you ready?",
-			popupHelperText: "Press any key to start"
+			popupHelperText: "Press any key and let the trial begin"
 		};
 	}
 
@@ -77,7 +77,7 @@ class Player extends React.Component {
 			this.youtube.playVideo();
 			this.status = "running";
 			setTimeout(() => {
-				this.setState({popupText: "PAUSED", popupHelperText: "Press any key to resume"});
+				this.setState({popupText: "DON'T BE A POSER", popupHelperText: "Press any key to continue your trial"});
 			}, 500);
 		}
 	}
@@ -148,7 +148,7 @@ class Player extends React.Component {
 	}
 
 	onEnd() {
-		this.setState({popupText: "YOU MADE IT", popupHelperText: "Press any key to go back"});
+		this.setState({popupText: "A " + this.props.mode.replace(new RegExp("_", "g"), " "), popupHelperText: "Press any key and return in glory"});
 		document.getElementById("popup").style.animation = "show .5s linear 1";
 		document.getElementById("popup").style.opacity = "1";
 		this.status = "end";

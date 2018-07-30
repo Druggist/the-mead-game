@@ -3,8 +3,8 @@ import {isMobile} from "react-device-detect";
 import { Grid, Row, Col } from "react-flexbox-grid";
 import Waves from "../Components/Waves/Waves";
 import Card from "../Components/Card/Card";
-import PoserImg from "../Components/Card/images/poser.jpg";
-import WarriorImg from "../Components/Card/images/warrior.jpg";
+import DefenderImg from "../Components/Card/images/defender.jpg";
+import GodImg from "../Components/Card/images/god.jpg";
 import BomImg from "../Components/Card/images/bom.jpg";
 
 class Menu extends React.Component {
@@ -19,15 +19,15 @@ class Menu extends React.Component {
 					</Row>
 					<Row center="xs">
 						<Col xs>
-							<h2>CHOOSE YOUR FATE</h2>
+							<h2>SEAL YOUR FATE</h2>
 						</Col>
 					</Row>
 					<Row around="xs" center="xs">
 						<Col xs={6} >
-							<Card to="/play/poser" title="Wimp & poser" image={PoserImg}/>
+							<Card to="/play/defender_of_valhalla" title="Defender of Valhalla" image={DefenderImg}/>
 						</Col>
 						<Col xs={6}>
-							<Card to="/play/warrior" title="True metal warrior" image={WarriorImg}/>
+							<Card to="/play/god_of_war" title="God of war" image={GodImg}/>
 						</Col>
 					</Row>
 					<Row bottom="xs" style={{minHeight: "100px"}}></Row>
