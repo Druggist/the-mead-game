@@ -1,3 +1,6 @@
+# The mead song game
+Web app for the almighty Brothers of Metal to aid them in the epic mead quest. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
